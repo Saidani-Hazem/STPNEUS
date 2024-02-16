@@ -1,0 +1,45 @@
+
+*****************    Guide d'Utilisation du Logiciel de Gestion des Stocks de Pneus    *****************************
+
+
+
+
+1. ACCUEIL :
+
+Lorsque vous lancez le logiciel, vous arrivez sur la page d'accueil qui comprend :
+Une zone de texte.
+Un bouton de recherche.
+Une barre de menu avec les options : Achat, Vente, Historique.
+Pour naviguer vers ces sections, un mot de passe est requis.
+Effectuez une recherche dans le stock actuel des pneus en saisissant la référence de l'article (format : xxx/xx/xx) 
+ou utilisez "*" pour afficher tous les articles. Cliquez ensuite sur le bouton de recherche.
+
+
+2. ACHAT :
+
+Pour effectuer une opération d'achat :
+Remplissez toutes les informations du formulaire en respectant le format des valeurs.
+Cliquez sur "Valider" pour confirmer.
+Cliquez sur "Annuler" pour annuler l'opération et vider les champs.
+
+
+3. VENTE :
+
+Consultez la liste des articles disponibles dans un tableau avec une option de recherche par référence.
+En cliquant sur un article, ses informations s'affichent dans un formulaire non modifiable.
+Indiquez la quantité à vendre et le prix de vente unitaire.
+Utilisez le bouton "Annuler" pour vider les champs de l'article sélectionné.
+
+
+4. HISTORIQUE :
+
+Consultez l'historique des achats ou des ventes :
+Choisissez 'Entrée' ou 'Sortie' dans la liste déroulante.
+Sélectionnez une période avec les champs de dates 'DE' et 'À'.
+Laissez le champ de référence vide pour afficher tous les articles ou indiquez une référence dans la zone "Ref".
+Cliquez sur le bouton "Recherche" pour obtenir les résultats.
+
+"Data Source = E:\STPNEUS\base_de_donnes_occasion\base.db"
+
+
+************************************************************************************************************************

@@ -1,0 +1,25 @@
+CREATE TABLE Pneus (code INT PRIMARY KEY,
+réference varchar(50),
+ Marque varchar(50),
+ type varchar(20),
+Date_entree date,
+prix_Unitaire decimal,
+ Quantite int);
+
+CREATE TABLE Entree (Code_E int PRIMARY KEY,
+id int,
+réference varchar(50),
+ Marque varchar(50) ,
+ Type_pneu varchar(20),
+ Date date,
+PrixUN_Achat decimal,
+ Quantite int);
+
+CREATE TABLE Sortie (Code_S int PRIMARY KEY,
+id int,
+réference varchar(50),
+ Marque varchar(50) ,
+ Type_pneu varchar(20),
+ Date date,
+PrixUN_Vente decimal,
+ Quantite int);
